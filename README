@@ -1,0 +1,12 @@
+This is a self-contained package of applying our CS method to Kodak RGB examples.
+The CS is applied to Kodak RGB images in a channel-by-channel manner.
+
+1. The example data is stored in ./Kodak_examples_uncompressed
+2. Sub-packages of using CS with kernel of dimension [k,k,1,4] is named Kodak_RGB_kk4.
+
+More detailed illustration: Kodak_RGB_884 for example.
+K.1 Predict_884_fix_codes_RGBKD.ipynb tests the full flow of compression and decompression, as well as presenting the comparisons of original and reconstructed RGB images and the metrics.
+K.2 Trained models are stored in model_...
+K.3 JP2k_glymur_test.ipynb is used to compress original RGB images with JP2K, for comparisons with CS with and without entropy coding (arcode).
+K.4 JPEG_PIL_test.ipynb is used to compress original RGB images with JPEG, for comparisons with CS with and without entropy coding (arcode).
+
