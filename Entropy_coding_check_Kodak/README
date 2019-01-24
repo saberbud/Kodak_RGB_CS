@@ -1,0 +1,7 @@
+This entropy coding package is very similar to the one for raw-bayer CS. Additional illustratoins are added below:
+The entropy-coding tests can be found in each sub-folder for the COMPINTs of specific type.
+
+The arcode tests test_CI_arcode_KD.ipynb includes the decoding tests this time: function ar_decode. This is used to make sure the reconstruction from arcode reproduces the input integer array, as can be seen in the code.
+
+The Kodak examples in the paper are the 3, 22, and 23 of the full Kodak dataset.
+
